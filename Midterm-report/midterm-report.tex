@@ -1,0 +1,86 @@
+% Preamble
+\documentclass[12pt, a4paper, twoside]{article}
+\usepackage[a4paper, left=0.75in, right=0.75in, top=1in, bottom=1in]{geometry}
+\usepackage{lipsum, verbatim, fancyhdr, lastpage, graphicx, hyperref, amsmath}
+\usepackage[backend=bibtex]{biblatex}
+\graphicspath{{./plots/}}
+\addbibresource{ref.bib}
+% Top Matter
+\hypersetup{
+	colorlinks   = true,
+	urlcolor     = blue, 
+	linkcolor    = blue, 
+	citecolor   = red
+}
+\pagestyle{fancy}
+\fancyhead[CO, CE]{CS 725: Foundations of Machine Learning (Autumn 2023) --- Project}
+\fancyhead[LO, LE, RO, RE]{}
+\fancyfoot[CO, CE]{Page \thepage\ of \pageref{LastPage}}
+\fancyfoot[LO, LE, RO, RE]{}
+% \bibliographystyle{plain}
+
+\title{\vspace{-0.5in}\textbf{CS 725: Foundations of Machine Learning \\
+Midterm Project Report}}
+\author{CV Mavericks\footnote{The project has undergone revisions based on the feedback provided on 18/10/2023. Initially, the project focused on \emph{Image-Based Disease Diagnosis using Deep Learning}. The new project concept has received approval from Krishnakant Bhatt (21q050016@iitb.ac.in).}\\
+23m2154, 23m2156, 23m2157, 23m2158, 23m2162}
+\date{October 31, 2023}
+
+% Main Matter
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+\begin{abstract}
+Our project addresses the limitations of current food image datasets in accurately estimating calories. We introduce a food image dataset that includes both food annotations and detailed volume and mass records for each item, along with a calibration reference. Our dataset comprises 2978 images, each accompanied by annotations and essential food metrics. To estimate the calorie content of food in this dataset, we employ a deep learning approach utilizing Faster R-CNN for food detection and a GrabCut algorithm to outline the contours of each food item. With this information, we calculate the volume and subsequently, the calorie content of each food.
+\end{abstract}
+
+\section{Problem Statement - Soumen}
+\lipsum[1]
+
+\section{Proposed Solution Approach - Soumen}
+\lipsum[2]
+
+\section{Code Survey}
+\lipsum[3]
+
+\section{Datasets}
+\lipsum[4]
+
+\section{Implementation Details - Soumen}
+\lipsum[5]
+
+\section{Preliminary Results}
+\lipsum[6]
+
+\section{Roadmap - Soumen}
+\lipsum[7]\cite{ang_ml}\cite{ddl_book}
+
+\printbibliography
+\end{document}
+
+
+%\begin{align}
+%	P [\bar{x} | y=k] &= P[x_1 | y=k] \cdot P[x_2 | y=k] \dots P[x_{10} | y=k] \\
+%	&= \prod_{i = 1}^{10} P[x_i | y = k] \\
+%	P [y=k | \bar{x}] &= \left(  \prod_{i = 1}^{10} P[x_i | y = k] \right) \cdot P[y=k] \\
+%	\hat{y} &= \underset{k = 0, 1, 2}{\text{argmax}} \left(  \prod_{i = 1}^{10} P[x_i | y = k] \right) \cdot P[y=k]
+%\end{align}  
+%\begin{equation}\label{E:main}
+%	\hat{y} = \underset{k = 0, 1, 2}{\text{argmax}} \left[ \sum_{i = 1}^{10} \left( \log (P[x_i | y = k]) \right) + \log (P[y=k]) \right]
+%\end{equation}
+%
+%{
+%	\renewcommand{\arraystretch}{2}
+%	\begin{table}[p]
+%		\begin{center}
+%			\begin{tabular}{c c}
+%				\hline
+%				Output class label $y$ & Prior probability ($P[y = k]$) \\ \hline
+%				$y = 0$ & $0.333$ \\ \hline
+%				$y = 1$ & $0.333$  \\ \hline
+%				$y = 2$& $0.333$ \\ \hline
+%			\end{tabular}
+%			\caption{Prior probability of the class labels}\label{T:prior}
+%		\end{center}
+%	\end{table}
+%}
