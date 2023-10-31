@@ -31,7 +31,7 @@ Midterm Project Report}}
 \thispagestyle{fancy}
 
 \begin{abstract}
-Our project addresses the limitations of current food image datasets in accurately estimating calories. We introduce a food image dataset that includes both food annotations and detailed volume and mass records for each item, along with a calibration reference. Our dataset comprises 2978 images, each accompanied by annotations and essential food metrics. To estimate the calorie content of food in this dataset, we employ a deep learning approach utilizing Faster R-CNN for food detection and a GrabCut algorithm to outline the contours of each food item. With this information, we calculate the volume and subsequently, the calorie content of each food.
+Our project addresses the limitations of current food image datasets in accurately estimating calories. We introduce a food image dataset that includes both food annotations and detailed volume and mass records for each item, along with a calibration reference. Our dataset comprises 2978 images, each accompanied by annotations and essential food metrics. To estimate the calorie content of food in this dataset, we employ a deep learning approach utilizing Faster RCNN for food detection and a GrabCut algorithm to outline the contours of each food item. With this information, we calculate the volume and subsequently, the calorie content of each food.
 \end{abstract}
 
 \section{Problem Statement}
@@ -92,19 +92,40 @@ Different backbone architectures can be used for implementing Faster RCNN. Below
 The key feature of implementing Faster RCNN is its Region Proposal Network (RPN). The \href{https://martian1231-py.medium.com/region-proposal-network-rpn-in-faster-rcnn-from-scratch-in-keras-1311c67c13cf}{article} gives a detailed walk-through of implementing the RPN network while covering the important aspects of its implementation which will help us understand the network and allow us the ability to make changes as per our need.
 
 \section{Datasets}
-\lipsum[4]
+We utilize the ECUST dataset, which encompasses 19 diverse food types including apple, banana, bread, bun, doughnut, egg, fired doughnut, grape, lemon, litchi, mango, mooncake, orange, peach, pear, plum, kiwi, sachima, and tomato as shown in Figure \ref{F:table}. The model is trained on a total of 2978 images from this dataset. Each food item is captured in multiple sets of photos, showcasing both its top and side views (see Figure \ref{F:sample}). Each image is calibrated using a one Yuan coin as shown in Figure \ref{F:coin}, and no more than two food items are present in a single picture. Additionally, all images in the dataset are smaller than 1000 by 1000 pixels. The dataset provides density and energy content information for all 19 food items.
+\par
+To ensure accurate measurement of food volume and mass, foods that are sufficiently large, stable, and less likely to deform. are selected. Foods with small volumes, like peanuts, are challenging to measure accurately and can lead to significant errors when compared to their actual volume. In ECUST dataset, every food item is presented in its entirety. In the dataset, the whole foods, such as entire apples rather than sliced ones were prioritized to facilitate volume and weight measurements. Photos were taken in various mobile devices, under lighting conditions, including low light settings. Different shooting angles were used for top and side views. The position of the food in images was flexible, as long as it was fully captured. A One Yuan coin was chosen as the calibration object due to its common availability, with a diameter of 25.0mm.
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\textwidth]{table}
+	\caption{Details of food item from ECUST dataset}
+	\label{F:table}
+\end{figure}
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\textwidth]{sample}
+	\caption{Sample food items from ECUST dataset}
+	\label{F:sample}
+\end{figure}
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=0.75\textwidth]{coin}
+	\caption{Dimension of One Yuan coin}
+	\label{F:coin}
+\end{figure}
 
 \section{Implementation Details}
 \subsection{Faster RCNN}
-This algorithm takes an image as input and produces a convolution feature map. It utilizes a separate network to suggest potential regions of interest. These suggested regions are then reshaped using a Region of Interest (ROI) pooling layer. Offset values for bounding boxes are predicted based on this reshaping, and the images within the proposed regions are classified. Faster RCNN is chosen for image detection due to its superior speed compared to other algorithms like RCNN and Fast RCNN. Anchors play a crucial role in Faster R-CNN. An anchor is essentially a box, and in the default setup of Faster R-CNN, an image is divided into 9 anchors. Using a well-chosen set of anchors can enhance both speed and accuracy. The Region Proposal Network (RPN) produces a set of boxes or proposals, which are then examined by the classifier and regressor to identify objects.
+This algorithm\cite{rcnn} takes an image as input and produces a convolution feature map. It utilizes a separate network to suggest potential regions of interest. These suggested regions are then reshaped using a Region of Interest (ROI) pooling layer. Offset values for bounding boxes are predicted based on this reshaping, and the images within the proposed regions are classified. Faster RCNN is chosen for image detection due to its superior speed compared to other algorithms like RCNN and Fast RCNN. Anchors play a crucial role in Faster RCNN. An anchor is essentially a box, and in the default setup of Faster RCNN, an image is divided into 9 anchors. Using a well-chosen set of anchors can enhance both speed and accuracy. The Region Proposal Network (RPN) produces a set of boxes or proposals, which are then examined by the classifier and regressor to identify objects.
 
 \subsection{GrabCut Algorithm}
-The GrabCut algorithm employs Image Segmentation. In this method, we use a box to define the object, effectively separating it from the background. The outer region of the box represents the background, while the inner portion combines some background and the object. Subsequently, an iterative process designates each pixel as either background or foreground. Initially, the computer makes an educated guess based on user-provided data. Then, we utilize a Gaussian mixture model to characterize both the foreground and background. Next, we label pixels as probable foreground or probable background, designating others as unknown.
+The GrabCut algorithm\cite{grabcut} employs Image Segmentation. In this method, we use a box to define the object, effectively separating it from the background. The outer region of the box represents the background, while the inner portion combines some background and the object. Subsequently, an iterative process designates each pixel as either background or foreground. Initially, the computer makes an educated guess based on user-provided data. Then, we utilize a Gaussian mixture model to characterize both the foreground and background. Next, we label pixels as probable foreground or probable background, designating others as unknown.
 \par
 In this algorithm, every pixel becomes a node in a graph. Additional nodes like source and sink nodes are introduced. The source node connects to the foreground pixels, while the sink node connects to the background pixels. The likelihood of a pixel being foreground or background influences the edge weights connecting the pixels to these nodes. The similarity between pixels, indicated by the edge information, determines these weights. If there's a substantial color difference between pixels, a low weight is assigned to the edge. Following this, the graph undergoes Segmentation using min-cut. This operation divides the graph into two parts, separating the source and sink nodes, and does so with the least possible cost. The total weights of the cut edges constitute the cost function. Post-cut, all pixels connected to the Source node become foreground, while those linked to the Sink node become background. This process continues until the classification stabilizes.
 
 \subsection{Volume Calculation}
-To estimate the volume, we calculate the scale factors based on calibration objects. We use a One Yuan coin to show the specific process of calculating the volume. The diameter of the coin is 2.5 cm, and the side view’s and top view's scale factor ($\alpha_S$ and $\alpha_T$) is calculated with Equation \ref{E:as} and \ref{E:at}.
+To estimate the volume\cite{vol}, we calculate the scale factors based on calibration objects. We use a One Yuan coin to show the specific process of calculating the volume. The diameter of the coin is 2.5 cm, and the side view’s and top view's scale factor ($\alpha_S$ and $\alpha_T$) is calculated with Equation \ref{E:as} and \ref{E:at}.
 \begin{align}
 	\alpha_S &= \frac{2.5}{(W_S + H_S)/2} \label{E:as}\\
 	\alpha_T &= \frac{2.5}{(W_T + H_T)/2 \label{E:at}}
@@ -122,7 +143,7 @@ Furthermore, we divide the foods into three categories based on shape: ellipsoid
 	\end{cases}
 \end{equation}
 \par
-Where $L^k_S$ is the number of foreground pixels in side view of row $k$ ($k \in 1, 2, 3, \dots , H_S$). $L^{max} = \max_{k} L^k$, it records the maximum number of foreground pixels in side view. $\beta$ is a compensation factor (default value = 1.0).  $s_T$ is the surface area of the top view.
+Where $L^k_S$ is the number of foreground pixels in side view of row $k$ ($k \in 1, 2, 3, \dots , H_S$). $L^{max}_S = \max_{k} L^k$, it records the maximum number of foreground pixels in side view. $\beta$ is a compensation factor (default value = 1.0).  $s_T$ is the surface area of the top view.
 \par
 After estimating the volume, the next step is to estimate each food’s mass ($m$ in $g$). It can be calculated in Equation \ref{E:mass}, Where $v$ represents the volume of food in $cm^3$, and  $\rho$ represents its density value in $g/cm^3$. Then the calorie ($C$ in $cal$) of the food can be calculated by Equation \ref{E:cal} using the unit energy ($c$ in $cal/g$).
 \begin{align}
@@ -131,38 +152,24 @@ After estimating the volume, the next step is to estimate each food’s mass ($m
 \end{align}
 \par
 The density, unit energy values and shape for each food items can be obtained from ECUST dataset.
-\section{Preliminary Results}
-\lipsum[6]
 
-\section{Roadmap - Soumen}
-\lipsum[7]\cite{ang_ml}\cite{ddl_book}
+\section{Roadmap}
+This project aims to estimate the calorie from the food image dataset. The flowchart for implementing the project is shown in Figure \ref{F:roadmap}. The detailed roadmap to implement the project is shown below.
+\begin{description}
+	\item[Acquiring the ECUST Dataset] Familiarize yourself with the problem statement and the challenges addressed in the project.
+	\item[Data Preprocessing] Load and preprocess the dataset. This may include resizing images, normalizing pixel values, and organizing annotations. Explore the dataset to understand its characteristics, such as image dimensions, class distributions, and other relevant statistics.
+	\item[Object Detection with Faster RCNN:] Implement the Faster Region-based Convolutional Neural Network (RCNN) for food detection and classification. Train the model on the annotated food images from the ECUST dataset.
+	\item[Volume Estimation with GrabCut:] Apply the GrabCut algorithm to segment the food items and accurately delineate their contours. Use the segmented images to estimate the volume of each food item.
+	\item[Calorie Content Estimation:] Utilize the obtained volume information, along with density values, to estimate the calorie content of each food item.
+	\item[Validation and Evaluation:] Evaluate the performance of the model using appropriate metrics. This may include accuracy, precision, recall, etc.
+	\item[Documentation and Reporting:] Document your methodology, code, and results thoroughly. Provide explanations for design choices and algorithm implementations.
+\end{description}
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\textwidth]{roadmap}
+	\caption{Flowchart to implement the project\cite{liang}}
+	\label{F:roadmap}
+\end{figure}
 
 \printbibliography
 \end{document}
-
-
-%\begin{align}
-%	P [\bar{x} | y=k] &= P[x_1 | y=k] \cdot P[x_2 | y=k] \dots P[x_{10} | y=k] \\
-%	&= \prod_{i = 1}^{10} P[x_i | y = k] \\
-%	P [y=k | \bar{x}] &= \left(  \prod_{i = 1}^{10} P[x_i | y = k] \right) \cdot P[y=k] \\
-%	\hat{y} &= \underset{k = 0, 1, 2}{\text{argmax}} \left(  \prod_{i = 1}^{10} P[x_i | y = k] \right) \cdot P[y=k]
-%\end{align}  
-%\begin{equation}\label{E:main}
-%	\hat{y} = \underset{k = 0, 1, 2}{\text{argmax}} \left[ \sum_{i = 1}^{10} \left( \log (P[x_i | y = k]) \right) + \log (P[y=k]) \right]
-%\end{equation}
-%
-%{
-%	\renewcommand{\arraystretch}{2}
-%	\begin{table}[p]
-%		\begin{center}
-%			\begin{tabular}{c c}
-%				\hline
-%				Output class label $y$ & Prior probability ($P[y = k]$) \\ \hline
-%				$y = 0$ & $0.333$ \\ \hline
-%				$y = 1$ & $0.333$  \\ \hline
-%				$y = 2$& $0.333$ \\ \hline
-%			\end{tabular}
-%			\caption{Prior probability of the class labels}\label{T:prior}
-%		\end{center}
-%	\end{table}
-%}
