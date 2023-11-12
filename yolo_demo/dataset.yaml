@@ -1,0 +1,27 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: ./images/training  # train images (relative to 'path') 4 images
+val: ./images/validation  # val images (relative to 'path') 4 images
+test: ./images/testing # test images (optional)
+
+# Classes 
+names:
+  0: apple
+  1: banana
+  2: bread
+  3: bun
+  4: doughnut
+  5: egg
+  6: fired_dough_twist
+  7: grape
+  8: lemon
+  9: litchi
+  10: mango
+  11: coin
+  12: mooncake
+  13: orange
+  14: peach
+  15: pear
+  16: plum
+  17: qiwi
+  18: sachima
+  19: tomato

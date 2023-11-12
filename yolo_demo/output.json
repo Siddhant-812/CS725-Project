@@ -1,0 +1,22 @@
+[
+    {
+        "image_name":"\\Users\\soumen\\Desktop\\IITB\\CS725-FML-Project\\yolo_demo\\images\\testing\\apple015S(1).jpg",
+        "object_id":0,
+        "object_name":"apple",
+        "x":0.6054211259,
+        "y":0.5504902005,
+        "w":0.271835953,
+        "h":0.3236243725,
+        "conf":0.9763496518
+    },
+    {
+        "image_name":"\\Users\\soumen\\Desktop\\IITB\\CS725-FML-Project\\yolo_demo\\images\\testing\\apple015S(1).jpg",
+        "object_id":11,
+        "object_name":"coin",
+        "x":0.1959565431,
+        "y":0.6860073209,
+        "w":0.083695814,
+        "h":0.1040624008,
+        "conf":0.8784218431
+    }
+]
