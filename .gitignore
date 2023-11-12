@@ -14,6 +14,3 @@ ECUSTFD-resized-
 Midterm-report/plots
 yolo_demo/data_prep
 yolo_demo/wandb
-yolo_demo/images
-yolo_demo/labels
-yolo_demo/runs/detect/predict*
