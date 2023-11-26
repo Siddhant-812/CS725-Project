@@ -4,6 +4,10 @@
 *.bbl
 *.log
 *.out
+*.snm
+*.nav
+*.toc
+*.bcf
 *.run.xml
 *.synctex.gz
 *-blx.bib
@@ -11,6 +15,5 @@
 *.cache
 *.icloud
 ECUSTFD-resized-
-Midterm-report/plots
 yolo_demo/data_prep
 yolo_demo/wandb
