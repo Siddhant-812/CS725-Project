@@ -1,0 +1,1142 @@
+{
+  "tomato003T(1).jpg": [
+    {
+      "Image Name": "tomato003T(1).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "39863",
+      "Row Pixel Count Sum": "7840111",
+      "Max Row Pixel Count": "232",
+      "Bounding Box (H + W)": "455",
+      "Height": "220"
+    },
+    {
+      "Image Name": "tomato003T(1).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2984",
+      "Row Pixel Count Sum": "156538",
+      "Max Row Pixel Count": "63",
+      "Bounding Box (H + W)": "128",
+      "Height": "63"
+    }
+  ],
+  "tomato003T(10).jpg": [
+    {
+      "Image Name": "tomato003T(10).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "35468",
+      "Row Pixel Count Sum": "6548036",
+      "Max Row Pixel Count": "217",
+      "Bounding Box (H + W)": "425",
+      "Height": "205"
+    },
+    {
+      "Image Name": "tomato003T(10).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2844",
+      "Row Pixel Count Sum": "145182",
+      "Max Row Pixel Count": "59",
+      "Bounding Box (H + W)": "124",
+      "Height": "61"
+    }
+  ],
+  "tomato003T(11).jpg": [
+    {
+      "Image Name": "tomato003T(11).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "37445",
+      "Row Pixel Count Sum": "7033909",
+      "Max Row Pixel Count": "216",
+      "Bounding Box (H + W)": "429",
+      "Height": "209"
+    },
+    {
+      "Image Name": "tomato003T(11).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2737",
+      "Row Pixel Count Sum": "144405",
+      "Max Row Pixel Count": "61",
+      "Bounding Box (H + W)": "120",
+      "Height": "58"
+    }
+  ],
+  "tomato003T(12).jpg": [
+    {
+      "Image Name": "tomato003T(12).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "33059",
+      "Row Pixel Count Sum": "5735081",
+      "Max Row Pixel Count": "203",
+      "Bounding Box (H + W)": "405",
+      "Height": "198"
+    },
+    {
+      "Image Name": "tomato003T(12).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2609",
+      "Row Pixel Count Sum": "129761",
+      "Max Row Pixel Count": "59",
+      "Bounding Box (H + W)": "117",
+      "Height": "58"
+    }
+  ],
+  "tomato003T(13).jpg": [
+    {
+      "Image Name": "tomato003T(13).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "35693",
+      "Row Pixel Count Sum": "6515369",
+      "Max Row Pixel Count": "215",
+      "Bounding Box (H + W)": "431",
+      "Height": "212"
+    },
+    {
+      "Image Name": "tomato003T(13).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3044",
+      "Row Pixel Count Sum": "162478",
+      "Max Row Pixel Count": "62",
+      "Bounding Box (H + W)": "125",
+      "Height": "62"
+    }
+  ],
+  "tomato003T(14).jpg": [
+    {
+      "Image Name": "tomato003T(14).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "38289",
+      "Row Pixel Count Sum": "7275369",
+      "Max Row Pixel Count": "225",
+      "Bounding Box (H + W)": "447",
+      "Height": "219"
+    },
+    {
+      "Image Name": "tomato003T(14).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3067",
+      "Row Pixel Count Sum": "164219",
+      "Max Row Pixel Count": "64",
+      "Bounding Box (H + W)": "127",
+      "Height": "61"
+    }
+  ],
+  "tomato003T(15).jpg": [
+    {
+      "Image Name": "tomato003T(15).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "40221",
+      "Row Pixel Count Sum": "7895087",
+      "Max Row Pixel Count": "228",
+      "Bounding Box (H + W)": "450",
+      "Height": "220"
+    },
+    {
+      "Image Name": "tomato003T(15).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3209",
+      "Row Pixel Count Sum": "184327",
+      "Max Row Pixel Count": "64",
+      "Bounding Box (H + W)": "128",
+      "Height": "62"
+    }
+  ],
+  "tomato003T(16).jpg": [
+    {
+      "Image Name": "tomato003T(16).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "33398",
+      "Row Pixel Count Sum": "5801334",
+      "Max Row Pixel Count": "204",
+      "Bounding Box (H + W)": "413",
+      "Height": "205"
+    },
+    {
+      "Image Name": "tomato003T(16).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3006",
+      "Row Pixel Count Sum": "160368",
+      "Max Row Pixel Count": "61",
+      "Bounding Box (H + W)": "124",
+      "Height": "60"
+    }
+  ],
+  "tomato003T(17).jpg": [
+    {
+      "Image Name": "tomato003T(17).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "36479",
+      "Row Pixel Count Sum": "6722575",
+      "Max Row Pixel Count": "215",
+      "Bounding Box (H + W)": "426",
+      "Height": "210"
+    },
+    {
+      "Image Name": "tomato003T(17).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2890",
+      "Row Pixel Count Sum": "150154",
+      "Max Row Pixel Count": "60",
+      "Bounding Box (H + W)": "124",
+      "Height": "61"
+    }
+  ],
+  "tomato003T(18).jpg": [
+    {
+      "Image Name": "tomato003T(18).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "36177",
+      "Row Pixel Count Sum": "6691317",
+      "Max Row Pixel Count": "214",
+      "Bounding Box (H + W)": "424",
+      "Height": "208"
+    },
+    {
+      "Image Name": "tomato003T(18).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2775",
+      "Row Pixel Count Sum": "146545",
+      "Max Row Pixel Count": "60",
+      "Bounding Box (H + W)": "122",
+      "Height": "59"
+    }
+  ],
+  "tomato003T(19).jpg": [
+    {
+      "Image Name": "tomato003T(19).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "38984",
+      "Row Pixel Count Sum": "7438308",
+      "Max Row Pixel Count": "219",
+      "Bounding Box (H + W)": "438",
+      "Height": "216"
+    },
+    {
+      "Image Name": "tomato003T(19).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2959",
+      "Row Pixel Count Sum": "160169",
+      "Max Row Pixel Count": "63",
+      "Bounding Box (H + W)": "125",
+      "Height": "60"
+    }
+  ],
+  "tomato003T(2).jpg": [
+    {
+      "Image Name": "tomato003T(2).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "36358",
+      "Row Pixel Count Sum": "6744492",
+      "Max Row Pixel Count": "215",
+      "Bounding Box (H + W)": "426",
+      "Height": "208"
+    },
+    {
+      "Image Name": "tomato003T(2).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3246",
+      "Row Pixel Count Sum": "178854",
+      "Max Row Pixel Count": "64",
+      "Bounding Box (H + W)": "128",
+      "Height": "64"
+    }
+  ],
+  "tomato003T(20).jpg": [
+    {
+      "Image Name": "tomato003T(20).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "42979",
+      "Row Pixel Count Sum": "8728789",
+      "Max Row Pixel Count": "235",
+      "Bounding Box (H + W)": "460",
+      "Height": "224"
+    },
+    {
+      "Image Name": "tomato003T(20).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3373",
+      "Row Pixel Count Sum": "189241",
+      "Max Row Pixel Count": "68",
+      "Bounding Box (H + W)": "140",
+      "Height": "68"
+    }
+  ],
+  "tomato003T(21).jpg": [
+    {
+      "Image Name": "tomato003T(21).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "37029",
+      "Row Pixel Count Sum": "6744663",
+      "Max Row Pixel Count": "208",
+      "Bounding Box (H + W)": "431",
+      "Height": "219"
+    },
+    {
+      "Image Name": "tomato003T(21).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2924",
+      "Row Pixel Count Sum": "153318",
+      "Max Row Pixel Count": "61",
+      "Bounding Box (H + W)": "130",
+      "Height": "63"
+    }
+  ],
+  "tomato003T(22).jpg": [
+    {
+      "Image Name": "tomato003T(22).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "35663",
+      "Row Pixel Count Sum": "6530601",
+      "Max Row Pixel Count": "214",
+      "Bounding Box (H + W)": "427",
+      "Height": "213"
+    },
+    {
+      "Image Name": "tomato003T(22).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3001",
+      "Row Pixel Count Sum": "162475",
+      "Max Row Pixel Count": "64",
+      "Bounding Box (H + W)": "130",
+      "Height": "63"
+    }
+  ],
+  "tomato003T(23).jpg": [
+    {
+      "Image Name": "tomato003T(23).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "34215",
+      "Row Pixel Count Sum": "6066771",
+      "Max Row Pixel Count": "205",
+      "Bounding Box (H + W)": "414",
+      "Height": "207"
+    },
+    {
+      "Image Name": "tomato003T(23).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2535",
+      "Row Pixel Count Sum": "124017",
+      "Max Row Pixel Count": "58",
+      "Bounding Box (H + W)": "119",
+      "Height": "58"
+    }
+  ],
+  "tomato003T(24).jpg": [
+    {
+      "Image Name": "tomato003T(24).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "32487",
+      "Row Pixel Count Sum": "5502827",
+      "Max Row Pixel Count": "197",
+      "Bounding Box (H + W)": "404",
+      "Height": "206"
+    },
+    {
+      "Image Name": "tomato003T(24).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2507",
+      "Row Pixel Count Sum": "122069",
+      "Max Row Pixel Count": "57",
+      "Bounding Box (H + W)": "117",
+      "Height": "57"
+    }
+  ],
+  "tomato003T(25).jpg": [
+    {
+      "Image Name": "tomato003T(25).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "32798",
+      "Row Pixel Count Sum": "5835822",
+      "Max Row Pixel Count": "204",
+      "Bounding Box (H + W)": "403",
+      "Height": "198"
+    },
+    {
+      "Image Name": "tomato003T(25).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2757",
+      "Row Pixel Count Sum": "143545",
+      "Max Row Pixel Count": "64",
+      "Bounding Box (H + W)": "124",
+      "Height": "59"
+    }
+  ],
+  "tomato003T(26).jpg": [
+    {
+      "Image Name": "tomato003T(26).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "33695",
+      "Row Pixel Count Sum": "5899687",
+      "Max Row Pixel Count": "202",
+      "Bounding Box (H + W)": "415",
+      "Height": "209"
+    },
+    {
+      "Image Name": "tomato003T(26).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2758",
+      "Row Pixel Count Sum": "142266",
+      "Max Row Pixel Count": "59",
+      "Bounding Box (H + W)": "123",
+      "Height": "59"
+    }
+  ],
+  "tomato003T(27).jpg": [
+    {
+      "Image Name": "tomato003T(27).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "35664",
+      "Row Pixel Count Sum": "6417402",
+      "Max Row Pixel Count": "209",
+      "Bounding Box (H + W)": "421",
+      "Height": "212"
+    },
+    {
+      "Image Name": "tomato003T(27).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3079",
+      "Row Pixel Count Sum": "178465",
+      "Max Row Pixel Count": "66",
+      "Bounding Box (H + W)": "135",
+      "Height": "62"
+    }
+  ],
+  "tomato003T(28).jpg": [
+    {
+      "Image Name": "tomato003T(28).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "49312",
+      "Row Pixel Count Sum": "10766232",
+      "Max Row Pixel Count": "254",
+      "Bounding Box (H + W)": "495",
+      "Height": "238"
+    },
+    {
+      "Image Name": "tomato003T(28).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3503",
+      "Row Pixel Count Sum": "198121",
+      "Max Row Pixel Count": "65",
+      "Bounding Box (H + W)": "135",
+      "Height": "68"
+    }
+  ],
+  "tomato003T(29).jpg": [
+    {
+      "Image Name": "tomato003T(29).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "46062",
+      "Row Pixel Count Sum": "9739350",
+      "Max Row Pixel Count": "247",
+      "Bounding Box (H + W)": "483",
+      "Height": "233"
+    },
+    {
+      "Image Name": "tomato003T(29).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3159",
+      "Row Pixel Count Sum": "178771",
+      "Max Row Pixel Count": "65",
+      "Bounding Box (H + W)": "133",
+      "Height": "64"
+    }
+  ],
+  "tomato003T(3).jpg": [
+    {
+      "Image Name": "tomato003T(3).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2892",
+      "Row Pixel Count Sum": "151094",
+      "Max Row Pixel Count": "60",
+      "Bounding Box (H + W)": "121",
+      "Height": "60"
+    },
+    {
+      "Image Name": "tomato003T(3).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "31183",
+      "Row Pixel Count Sum": "5390657",
+      "Max Row Pixel Count": "202",
+      "Bounding Box (H + W)": "398",
+      "Height": "193"
+    }
+  ],
+  "tomato003T(30).jpg": [
+    {
+      "Image Name": "tomato003T(30).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "40555",
+      "Row Pixel Count Sum": "7882917",
+      "Max Row Pixel Count": "223",
+      "Bounding Box (H + W)": "449",
+      "Height": "223"
+    },
+    {
+      "Image Name": "tomato003T(30).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2906",
+      "Row Pixel Count Sum": "155040",
+      "Max Row Pixel Count": "61",
+      "Bounding Box (H + W)": "128",
+      "Height": "63"
+    }
+  ],
+  "tomato003T(31).jpg": [
+    {
+      "Image Name": "tomato003T(31).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "46267",
+      "Row Pixel Count Sum": "9600865",
+      "Max Row Pixel Count": "246",
+      "Bounding Box (H + W)": "493",
+      "Height": "243"
+    },
+    {
+      "Image Name": "tomato003T(31).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2999",
+      "Row Pixel Count Sum": "161561",
+      "Max Row Pixel Count": "63",
+      "Bounding Box (H + W)": "132",
+      "Height": "64"
+    }
+  ],
+  "tomato003T(32).jpg": [
+    {
+      "Image Name": "tomato003T(32).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "43693",
+      "Row Pixel Count Sum": "8738461",
+      "Max Row Pixel Count": "233",
+      "Bounding Box (H + W)": "468",
+      "Height": "233"
+    },
+    {
+      "Image Name": "tomato003T(32).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3324",
+      "Row Pixel Count Sum": "187668",
+      "Max Row Pixel Count": "66",
+      "Bounding Box (H + W)": "138",
+      "Height": "67"
+    }
+  ],
+  "tomato003T(33).jpg": [
+    {
+      "Image Name": "tomato003T(33).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "38459",
+      "Row Pixel Count Sum": "7439767",
+      "Max Row Pixel Count": "222",
+      "Bounding Box (H + W)": "438",
+      "Height": "213"
+    },
+    {
+      "Image Name": "tomato003T(33).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2842",
+      "Row Pixel Count Sum": "148602",
+      "Max Row Pixel Count": "60",
+      "Bounding Box (H + W)": "126",
+      "Height": "62"
+    }
+  ],
+  "tomato003T(4).jpg": [
+    {
+      "Image Name": "tomato003T(4).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "32332",
+      "Row Pixel Count Sum": "5547656",
+      "Max Row Pixel Count": "199",
+      "Bounding Box (H + W)": "401",
+      "Height": "199"
+    },
+    {
+      "Image Name": "tomato003T(4).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2895",
+      "Row Pixel Count Sum": "151071",
+      "Max Row Pixel Count": "60",
+      "Bounding Box (H + W)": "123",
+      "Height": "61"
+    }
+  ],
+  "tomato003T(7).jpg": [
+    {
+      "Image Name": "tomato003T(7).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "31452",
+      "Row Pixel Count Sum": "5509532",
+      "Max Row Pixel Count": "203",
+      "Bounding Box (H + W)": "395",
+      "Height": "189"
+    },
+    {
+      "Image Name": "tomato003T(7).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2304",
+      "Row Pixel Count Sum": "108056",
+      "Max Row Pixel Count": "54",
+      "Bounding Box (H + W)": "114",
+      "Height": "56"
+    }
+  ],
+  "tomato003T(8).jpg": [
+    {
+      "Image Name": "tomato003T(8).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "34571",
+      "Row Pixel Count Sum": "6180733",
+      "Max Row Pixel Count": "206",
+      "Bounding Box (H + W)": "409",
+      "Height": "202"
+    },
+    {
+      "Image Name": "tomato003T(8).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2583",
+      "Row Pixel Count Sum": "125057",
+      "Max Row Pixel Count": "57",
+      "Bounding Box (H + W)": "118",
+      "Height": "59"
+    }
+  ],
+  "tomato003T(9).jpg": [
+    {
+      "Image Name": "tomato003T(9).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "30318",
+      "Row Pixel Count Sum": "5044778",
+      "Max Row Pixel Count": "190",
+      "Bounding Box (H + W)": "386",
+      "Height": "194"
+    },
+    {
+      "Image Name": "tomato003T(9).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2328",
+      "Row Pixel Count Sum": "107878",
+      "Max Row Pixel Count": "54",
+      "Bounding Box (H + W)": "113",
+      "Height": "55"
+    }
+  ],
+  "tomato004T(1).jpg": [
+    {
+      "Image Name": "tomato004T(1).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3517",
+      "Row Pixel Count Sum": "203815",
+      "Max Row Pixel Count": "67",
+      "Bounding Box (H + W)": "140",
+      "Height": "69"
+    },
+    {
+      "Image Name": "tomato004T(1).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "39142",
+      "Row Pixel Count Sum": "7374992",
+      "Max Row Pixel Count": "217",
+      "Bounding Box (H + W)": "442",
+      "Height": "222"
+    }
+  ],
+  "tomato004T(10).jpg": [
+    {
+      "Image Name": "tomato004T(10).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3277",
+      "Row Pixel Count Sum": "179709",
+      "Max Row Pixel Count": "66",
+      "Bounding Box (H + W)": "135",
+      "Height": "68"
+    },
+    {
+      "Image Name": "tomato004T(10).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "40999",
+      "Row Pixel Count Sum": "8116727",
+      "Max Row Pixel Count": "232",
+      "Bounding Box (H + W)": "459",
+      "Height": "223"
+    }
+  ],
+  "tomato004T(11).jpg": [
+    {
+      "Image Name": "tomato004T(11).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "49313",
+      "Row Pixel Count Sum": "10655715",
+      "Max Row Pixel Count": "255",
+      "Bounding Box (H + W)": "500",
+      "Height": "244"
+    },
+    {
+      "Image Name": "tomato004T(11).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "4435",
+      "Row Pixel Count Sum": "285415",
+      "Max Row Pixel Count": "75",
+      "Bounding Box (H + W)": "154",
+      "Height": "76"
+    }
+  ],
+  "tomato004T(13).jpg": [
+    {
+      "Image Name": "tomato004T(13).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "43585",
+      "Row Pixel Count Sum": "8915435",
+      "Max Row Pixel Count": "236",
+      "Bounding Box (H + W)": "462",
+      "Height": "226"
+    },
+    {
+      "Image Name": "tomato004T(13).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3754",
+      "Row Pixel Count Sum": "222902",
+      "Max Row Pixel Count": "71",
+      "Bounding Box (H + W)": "142",
+      "Height": "70"
+    }
+  ],
+  "tomato004T(14).jpg": [
+    {
+      "Image Name": "tomato004T(14).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "35657",
+      "Row Pixel Count Sum": "6462479",
+      "Max Row Pixel Count": "209",
+      "Bounding Box (H + W)": "421",
+      "Height": "209"
+    },
+    {
+      "Image Name": "tomato004T(14).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3200",
+      "Row Pixel Count Sum": "177142",
+      "Max Row Pixel Count": "64",
+      "Bounding Box (H + W)": "130",
+      "Height": "64"
+    }
+  ],
+  "tomato004T(15).jpg": [
+    {
+      "Image Name": "tomato004T(15).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "40871",
+      "Row Pixel Count Sum": "8203927",
+      "Max Row Pixel Count": "228",
+      "Bounding Box (H + W)": "447",
+      "Height": "217"
+    },
+    {
+      "Image Name": "tomato004T(15).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3243",
+      "Row Pixel Count Sum": "178551",
+      "Max Row Pixel Count": "63",
+      "Bounding Box (H + W)": "132",
+      "Height": "65"
+    }
+  ],
+  "tomato004T(16).jpg": [
+    {
+      "Image Name": "tomato004T(16).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2865",
+      "Row Pixel Count Sum": "149171",
+      "Max Row Pixel Count": "60",
+      "Bounding Box (H + W)": "124",
+      "Height": "61"
+    },
+    {
+      "Image Name": "tomato004T(16).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "33792",
+      "Row Pixel Count Sum": "6077118",
+      "Max Row Pixel Count": "210",
+      "Bounding Box (H + W)": "413",
+      "Height": "199"
+    }
+  ],
+  "tomato004T(17).jpg": [
+    {
+      "Image Name": "tomato004T(17).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "35360",
+      "Row Pixel Count Sum": "6410650",
+      "Max Row Pixel Count": "209",
+      "Bounding Box (H + W)": "419",
+      "Height": "206"
+    },
+    {
+      "Image Name": "tomato004T(17).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2919",
+      "Row Pixel Count Sum": "153863",
+      "Max Row Pixel Count": "62",
+      "Bounding Box (H + W)": "124",
+      "Height": "61"
+    }
+  ],
+  "tomato004T(18).jpg": [
+    {
+      "Image Name": "tomato004T(18).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "41398",
+      "Row Pixel Count Sum": "8252984",
+      "Max Row Pixel Count": "226",
+      "Bounding Box (H + W)": "448",
+      "Height": "219"
+    },
+    {
+      "Image Name": "tomato004T(18).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3118",
+      "Row Pixel Count Sum": "165900",
+      "Max Row Pixel Count": "62",
+      "Bounding Box (H + W)": "129",
+      "Height": "64"
+    }
+  ],
+  "tomato004T(19).jpg": [
+    {
+      "Image Name": "tomato004T(19).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "40106",
+      "Row Pixel Count Sum": "7767964",
+      "Max Row Pixel Count": "227",
+      "Bounding Box (H + W)": "455",
+      "Height": "225"
+    },
+    {
+      "Image Name": "tomato004T(19).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3352",
+      "Row Pixel Count Sum": "185732",
+      "Max Row Pixel Count": "66",
+      "Bounding Box (H + W)": "134",
+      "Height": "68"
+    }
+  ],
+  "tomato004T(2).jpg": [
+    {
+      "Image Name": "tomato004T(2).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "35489",
+      "Row Pixel Count Sum": "6563673",
+      "Max Row Pixel Count": "219",
+      "Bounding Box (H + W)": "428",
+      "Height": "207"
+    },
+    {
+      "Image Name": "tomato004T(2).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3035",
+      "Row Pixel Count Sum": "160417",
+      "Max Row Pixel Count": "65",
+      "Bounding Box (H + W)": "130",
+      "Height": "65"
+    }
+  ],
+  "tomato004T(20).jpg": [
+    {
+      "Image Name": "tomato004T(20).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "43454",
+      "Row Pixel Count Sum": "8765424",
+      "Max Row Pixel Count": "229",
+      "Bounding Box (H + W)": "456",
+      "Height": "226"
+    },
+    {
+      "Image Name": "tomato004T(20).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3205",
+      "Row Pixel Count Sum": "175855",
+      "Max Row Pixel Count": "66",
+      "Bounding Box (H + W)": "134",
+      "Height": "66"
+    }
+  ],
+  "tomato004T(21).jpg": [
+    {
+      "Image Name": "tomato004T(21).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "36160",
+      "Row Pixel Count Sum": "6784618",
+      "Max Row Pixel Count": "216",
+      "Bounding Box (H + W)": "425",
+      "Height": "205"
+    },
+    {
+      "Image Name": "tomato004T(21).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3213",
+      "Row Pixel Count Sum": "177787",
+      "Max Row Pixel Count": "65",
+      "Bounding Box (H + W)": "133",
+      "Height": "65"
+    }
+  ],
+  "tomato004T(22).jpg": [
+    {
+      "Image Name": "tomato004T(22).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "36515",
+      "Row Pixel Count Sum": "6655151",
+      "Max Row Pixel Count": "209",
+      "Bounding Box (H + W)": "423",
+      "Height": "212"
+    },
+    {
+      "Image Name": "tomato004T(22).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3029",
+      "Row Pixel Count Sum": "166221",
+      "Max Row Pixel Count": "62",
+      "Bounding Box (H + W)": "130",
+      "Height": "63"
+    }
+  ],
+  "tomato004T(23).jpg": [
+    {
+      "Image Name": "tomato004T(23).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "36583",
+      "Row Pixel Count Sum": "6609331",
+      "Max Row Pixel Count": "208",
+      "Bounding Box (H + W)": "424",
+      "Height": "214"
+    },
+    {
+      "Image Name": "tomato004T(23).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3007",
+      "Row Pixel Count Sum": "163877",
+      "Max Row Pixel Count": "63",
+      "Bounding Box (H + W)": "129",
+      "Height": "64"
+    }
+  ],
+  "tomato004T(24).jpg": [
+    {
+      "Image Name": "tomato004T(24).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "31575",
+      "Row Pixel Count Sum": "5592283",
+      "Max Row Pixel Count": "203",
+      "Bounding Box (H + W)": "394",
+      "Height": "188"
+    },
+    {
+      "Image Name": "tomato004T(24).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2894",
+      "Row Pixel Count Sum": "154268",
+      "Max Row Pixel Count": "62",
+      "Bounding Box (H + W)": "128",
+      "Height": "62"
+    }
+  ],
+  "tomato004T(25).jpg": [
+    {
+      "Image Name": "tomato004T(25).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "34038",
+      "Row Pixel Count Sum": "6109828",
+      "Max Row Pixel Count": "208",
+      "Bounding Box (H + W)": "414",
+      "Height": "205"
+    },
+    {
+      "Image Name": "tomato004T(25).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3145",
+      "Row Pixel Count Sum": "171615",
+      "Max Row Pixel Count": "63",
+      "Bounding Box (H + W)": "130",
+      "Height": "63"
+    }
+  ],
+  "tomato004T(26).jpg": [
+    {
+      "Image Name": "tomato004T(26).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3960",
+      "Row Pixel Count Sum": "245854",
+      "Max Row Pixel Count": "72",
+      "Bounding Box (H + W)": "147",
+      "Height": "71"
+    },
+    {
+      "Image Name": "tomato004T(26).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "49540",
+      "Row Pixel Count Sum": "10742280",
+      "Max Row Pixel Count": "246",
+      "Bounding Box (H + W)": "488",
+      "Height": "242"
+    }
+  ],
+  "tomato004T(27).jpg": [
+    {
+      "Image Name": "tomato004T(27).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "32835",
+      "Row Pixel Count Sum": "5767655",
+      "Max Row Pixel Count": "203",
+      "Bounding Box (H + W)": "407",
+      "Height": "200"
+    },
+    {
+      "Image Name": "tomato004T(27).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "2944",
+      "Row Pixel Count Sum": "156010",
+      "Max Row Pixel Count": "61",
+      "Bounding Box (H + W)": "129",
+      "Height": "62"
+    }
+  ],
+  "tomato004T(3).jpg": [
+    {
+      "Image Name": "tomato004T(3).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "40842",
+      "Row Pixel Count Sum": "7863220",
+      "Max Row Pixel Count": "227",
+      "Bounding Box (H + W)": "457",
+      "Height": "228"
+    },
+    {
+      "Image Name": "tomato004T(3).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3719",
+      "Row Pixel Count Sum": "215407",
+      "Max Row Pixel Count": "68",
+      "Bounding Box (H + W)": "141",
+      "Height": "70"
+    }
+  ],
+  "tomato004T(4).jpg": [
+    {
+      "Image Name": "tomato004T(4).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "40813",
+      "Row Pixel Count Sum": "7970991",
+      "Max Row Pixel Count": "230",
+      "Bounding Box (H + W)": "460",
+      "Height": "225"
+    },
+    {
+      "Image Name": "tomato004T(4).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3139",
+      "Row Pixel Count Sum": "167745",
+      "Max Row Pixel Count": "63",
+      "Bounding Box (H + W)": "132",
+      "Height": "65"
+    }
+  ],
+  "tomato004T(5).jpg": [
+    {
+      "Image Name": "tomato004T(5).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "37934",
+      "Row Pixel Count Sum": "7270232",
+      "Max Row Pixel Count": "225",
+      "Bounding Box (H + W)": "441",
+      "Height": "213"
+    },
+    {
+      "Image Name": "tomato004T(5).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3136",
+      "Row Pixel Count Sum": "168886",
+      "Max Row Pixel Count": "64",
+      "Bounding Box (H + W)": "131",
+      "Height": "64"
+    }
+  ],
+  "tomato004T(6).jpg": [
+    {
+      "Image Name": "tomato004T(6).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3519",
+      "Row Pixel Count Sum": "197529",
+      "Max Row Pixel Count": "66",
+      "Bounding Box (H + W)": "137",
+      "Height": "69"
+    },
+    {
+      "Image Name": "tomato004T(6).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "43966",
+      "Row Pixel Count Sum": "9155122",
+      "Max Row Pixel Count": "243",
+      "Bounding Box (H + W)": "471",
+      "Height": "228"
+    }
+  ],
+  "tomato004T(7).jpg": [
+    {
+      "Image Name": "tomato004T(7).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "37247",
+      "Row Pixel Count Sum": "6914689",
+      "Max Row Pixel Count": "215",
+      "Bounding Box (H + W)": "433",
+      "Height": "216"
+    },
+    {
+      "Image Name": "tomato004T(7).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3264",
+      "Row Pixel Count Sum": "181628",
+      "Max Row Pixel Count": "67",
+      "Bounding Box (H + W)": "133",
+      "Height": "66"
+    }
+  ],
+  "tomato004T(8).jpg": [
+    {
+      "Image Name": "tomato004T(8).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "43209",
+      "Row Pixel Count Sum": "8860233",
+      "Max Row Pixel Count": "236",
+      "Bounding Box (H + W)": "462",
+      "Height": "223"
+    },
+    {
+      "Image Name": "tomato004T(8).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "3871",
+      "Row Pixel Count Sum": "232895",
+      "Max Row Pixel Count": "70",
+      "Bounding Box (H + W)": "141",
+      "Height": "70"
+    }
+  ],
+  "tomato004T(9).jpg": [
+    {
+      "Image Name": "tomato004T(9).jpg",
+      "Bounding Box Objects": "tomato",
+      "Total Pixel Count": "46097",
+      "Row Pixel Count Sum": "9500437",
+      "Max Row Pixel Count": "238",
+      "Bounding Box (H + W)": "478",
+      "Height": "240"
+    },
+    {
+      "Image Name": "tomato004T(9).jpg",
+      "Bounding Box Objects": "coin",
+      "Total Pixel Count": "4018",
+      "Row Pixel Count Sum": "247486",
+      "Max Row Pixel Count": "72",
+      "Bounding Box (H + W)": "144",
+      "Height": "71"
+    }
+  ]
+}
