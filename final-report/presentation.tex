@@ -51,11 +51,11 @@
 		\begin{block}{}
 			\begin{description}
 				\item[Dataset Acquisition:] Obtain and familiarize with the ECUST dataset. Understand the dataset's nuances, including its characteristics and potential challenges.
-				\item[Data Preprocessing:] Prepare the dataset for model training. Resize images, normalize pixel values, and organize annotations. Ensure the dataset is well-structured and ready for training.\pause
+				\item[Data Preprocessing:] Prepare the dataset for model training. Resize images, and organize annotations. Ensure the dataset is well-structured and ready for training.\pause
 				\item[Object Detection with YOLO:] Implement an effective object detection model. Deploy YOLO for food items detection and classification. Achieve accurate identification of food items in images.
 				\item[Volume Estimation with GrabCut:] Accurately estimate the volume of segmented food items. Apply GrabCut algorithm for precise contour delineation. Obtain reliable volume information for further analysis.\pause
 				\item[Calorie Content Estimation:]  Derive calorie content from volume and density values. Utilize obtained volume information to estimate the calorie content of each food item. Provide accurate assessments of the nutritional content.
-				\item[Validation and Evaluation:] Assess the model's performance comprehensively. Include metrics such as mean absolute error. Ensure the model's effectiveness in calorie estimation.			
+				\item[Validation and Evaluation:] Assess the model's performance comprehensively. Include metrics such as mean error. Ensure the model's effectiveness in calorie estimation.			
 			\end{description}
 		\end{block}
 	\end{frame}
@@ -102,9 +102,9 @@
 			Where $L^k_S$ is the number of foreground pixels in side view of row $k$ ($k \in 1, 2, 3, \dots , H_S$). $L^{max}_S = \max_{k} L^k$. $\beta$ is a compensation factor (default value = 1.0).  $s_T$ is the surface area of the top view.
 		\end{block}\pause
 		\begin{block}{Evaluation Metric}\tiny
-			We use mean absolute error as the evaluation metric for the volume estimation of each of the food item class.
+			We use mean error as the evaluation metric for the volume estimation of each of the food item class.
 			\begin{equation}
-				MAE = \sum_{k=1}^{N} \frac{v_{true}^k-v_{pred}^k}{v_{true}^k}\times 100 \%
+				ME = \sum_{k=1}^{N} \frac{v_{true}^k-v_{pred}^k}{v_{true}^k}\times 100 \%
 			\end{equation}
 		\end{block}
 	\end{frame}
@@ -123,7 +123,7 @@
 			\begin{itemize}\scriptsize
 				\item The food and fruit images are divided into train and test sets. We used 80-20 ordered split for training and testing set. 
 				\item After YOLO version 8 is well trained, we use those pairs of test images which YOLO correctly recognizes to estimate volumes. In other words, those images YOLO cannot identity or misidentify in test sets will be discarded.
-				\item We use mean absolute error to evaluate volume estimation results.
+				\item We use mean error to evaluate volume estimation results.
 			\end{itemize}
 		\end{block}
 	\end{frame}
@@ -153,7 +153,7 @@
 		\begin{block}{Object Detection Approaches}\scriptsize
 			\begin{itemize}
 				\item Explored methodologies in the literature for accurate detection and classification of food items.
-				\item Noteworthy studies include \href{https://proceedings.neurips.cc/paper_files/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf}{Ren et al.} and \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978787}{Shang et al.}
+				\item Noteworthy studies include \href{https://proceedings.neurips.cc/paper_files/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf}{Ren et al. using Faster RCNN} and \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8978787}{Shang et al. using SSD}
 			\end{itemize}
 		\end{block}
 		\begin{block}{Volume Estimation Techniques}\scriptsize
