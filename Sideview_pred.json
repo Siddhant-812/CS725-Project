@@ -1,0 +1,22 @@
+[
+    {
+        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project\\apple015S(1).jpg",
+        "object_id":0,
+        "object_name":"apple",
+        "x":0.6054210067,
+        "y":0.5504902005,
+        "w":0.2718360424,
+        "h":0.3236243725,
+        "conf":0.9763495922
+    },
+    {
+        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project\\apple015S(1).jpg",
+        "object_id":11,
+        "object_name":"coin",
+        "x":0.1959565431,
+        "y":0.6860073209,
+        "w":0.0836957842,
+        "h":0.1040624008,
+        "conf":0.8784223199
+    }
+]
