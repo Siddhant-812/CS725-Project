@@ -1,0 +1,22 @@
+[
+    {
+        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project-main\\yolo_demo\\images\\testing\\apple015T(2).jpg",
+        "object_id":0,
+        "object_name":"apple",
+        "x":0.6283296943,
+        "y":0.5306269526,
+        "w":0.2751941383,
+        "h":0.3757329285,
+        "conf":0.9835200906
+    },
+    {
+        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project-main\\yolo_demo\\images\\testing\\apple015T(2).jpg",
+        "object_id":11,
+        "object_name":"coin",
+        "x":0.2374596149,
+        "y":0.5001160502,
+        "w":0.0708520934,
+        "h":0.0921307728,
+        "conf":0.8740340471
+    }
+]
