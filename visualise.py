@@ -29,7 +29,6 @@ ax.set_xlabel('Mean Error (%)')
 
 # Adjust x-axis limits for equal spacing on both sides
 x_limit = 40
-ax.set_xlim(left=-x_limit, right=x_limit)
 
 # Set x-axis ticks with the specified interval
 x_interval = 10
@@ -45,6 +44,7 @@ ax.xaxis.grid(False)
 for x_tick in ax.get_xticks():
     ax.axvline(x=x_tick, color='gray', linestyle='-', linewidth=0.5)
 
-
 # Show the plot
+ax.set_xlim(left=-10, right=x_limit)
+
 plt.show()

@@ -104,7 +104,7 @@
 		\begin{block}{Evaluation Metric}\tiny
 			We use mean absolute error as the evaluation metric for the volume estimation of each of the food item class.
 			\begin{equation}
-				MAE = \sum_{k=1}^{N} \frac{|v_{true}^k-v_{pred}^k|}{v_{true}^k}\times 100 \%
+				MAE = \sum_{k=1}^{N} \frac{v_{true}^k-v_{pred}^k}{v_{true}^k}\times 100 \%
 			\end{equation}
 		\end{block}
 	\end{frame}
@@ -131,12 +131,12 @@
 	\begin{frame}{Experiment Details and Main Results}
 		\begin{block}{Volume Estimation Results}\scriptsize
 			\begin{itemize}
-				\item Volume estimation results are shown in the below Figure. For most types of food in our experiment, the estimation volume are closer to reference volume.
-				\item The mean error between estimation volume and true volume does not exceed 20\% except banana, grape, mooncake. For some food types such as orange,our estimation result is close enough to the true value.
+				\item Volume estimation results are shown in the below figure. For most types of food in our experiment, the estimation volume are closer to reference volume.
+				\item The mean error between estimation volume and true volume does not exceed 20\% except banana, grape, bread. For some food types such as lemon, orange, tomato, our estimation result is close enough to the true value.
 			\end{itemize}
 			\begin{figure}
 				\centering
-				\includegraphics[scale=0.25]{vol_est.png}
+				\includegraphics[scale=0.18]{vol_est.png}
 				\caption{\scriptsize Volume estimation results of food items from images}
 			\end{figure}
 		\end{block}
@@ -192,7 +192,7 @@
 			\begin{description}
 				\item [Soumen] Led the dataset acquisition and preprocessing efforts. Implemented and fine-tuned the YOLO model for efficient object detection. Handled documentation, code-base, report and presentation.
 				\item [Vaibhav, Shubhranil] Applied expertise in image segmentation, incorporating the GrabCut algorithm. Contributed to the preparation of report.
-				\item [Sidhhant, Akash] Contributed to the development of the calorie estimation workflow and validation processes. 
+				\item [Siddhant, Akash] Contributed in developing the calorie estimation workflow and worked on pre-processing of test images to carry out the validation process and making plots of the results.
 			\end{description}
 		\end{block}
 	\end{frame}

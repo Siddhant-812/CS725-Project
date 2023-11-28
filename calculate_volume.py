@@ -11,7 +11,6 @@ density_energy = { "apple" : [0.78,0.52], "banana" : [0.91,0.89], "bread" : [0.1
             "lemon" : [0.96, 0.29], "litchi":[1.00,0.66],"mango" : [1.07,0.60], "mooncake": [0.96, 18.83], "orange" : [0.90,0.63], "pear" : [1.02,0.39],
             "peach":[0.96,0.57], "plum" : [1.01,0.46], "qiwi" : [0.97,0.61], "sachima" : [0.22,21.45], "tomato" : [0.98,0.27] }
 
-
 sideview_data = pd.read_csv("sideview_pixels.csv")  #[Bounding Box Objects,Total Pixel Count,Row Pixel Count Sum,Max Row Pixel Count,Bounding Box (H + W)]
 object_sideview = list(sideview_data.loc[0])
 coin_sideview = list(sideview_data.loc[1])
