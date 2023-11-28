@@ -1,3 +1,3 @@
 Image Name,Bounding Box Objects,Total Pixel Count,Row Pixel Count Sum,Max Row Pixel Count,Bounding Box (H + W),Height
-apple,55840,13138578,274,532,256
-coin,3158,172404,64,134,65
+coin,5185,360935,80,161,80
+bread,126719,43640063,384,804,405

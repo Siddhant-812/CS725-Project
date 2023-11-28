@@ -1,22 +1,22 @@
 [
     {
-        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project\\apple015S(1).jpg",
-        "object_id":0,
-        "object_name":"apple",
-        "x":0.6054210067,
-        "y":0.5504902005,
-        "w":0.2718360424,
-        "h":0.3236243725,
-        "conf":0.9763495922
-    },
-    {
-        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project\\apple015S(1).jpg",
+        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project\\yolo_demo\\images\\testing\\bread007S(6).jpg",
         "object_id":11,
         "object_name":"coin",
-        "x":0.1959565431,
-        "y":0.6860073209,
-        "w":0.0836957842,
-        "h":0.1040624008,
-        "conf":0.8784223199
+        "x":0.2197883427,
+        "y":0.568690598,
+        "w":0.1399159431,
+        "h":0.1781858057,
+        "conf":0.9154542089
+    },
+    {
+        "image_name":"C:\\CMInDS\\CS725 - FML\\Project\\CS725-FML-Project\\yolo_demo\\images\\testing\\bread007S(6).jpg",
+        "object_id":2,
+        "object_name":"bread",
+        "x":0.6488441229,
+        "y":0.6150009036,
+        "w":0.6547769904,
+        "h":0.1692057103,
+        "conf":0.31616202
     }
 ]
