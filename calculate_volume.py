@@ -12,29 +12,29 @@ density_energy = { "apple" : [0.78,0.52], "banana" : [0.91,0.89], "bread" : [0.1
             "peach":[0.96,0.57], "plum" : [1.01,0.46], "qiwi" : [0.97,0.61], "sachima" : [0.22,21.45], "tomato" : [0.98,0.27] }
 
 sideview_data = pd.read_csv("sideview_pixels.csv")  #[Bounding Box Objects,Total Pixel Count,Row Pixel Count Sum,Max Row Pixel Count,Bounding Box (H + W)]
-object_sideview = list(sideview_data.loc[0])
-coin_sideview = list(sideview_data.loc[1])
+object_sideview = sideview_data[sideview_data["Image Name"]!="coin"]
+coin_sideview = sideview_data[sideview_data["Image Name"]=="coin"]
 
 topview_data = pd.read_csv("topview_pixels.csv")
-object_topview = list(topview_data.loc[0])
-coin_topview = list(topview_data.loc[1])
+object_topview = topview_data[topview_data["Image Name"]!="coin"]
+coin_topview = topview_data[topview_data["Image Name"]=="coin"]
 
-object_name = object_sideview[0]
+object_name = object_sideview.iloc[0,0]
 object_shape = cls_name[object_name]
 
-alpha_side = 5/coin_sideview[4]
-alpha_top = 5/coin_topview[4]
+alpha_side = 5/coin_sideview.iloc[0,4]
+alpha_top = 5/coin_topview.iloc[0,4]
 
 # Calculate Volume
 
 if(object_shape == "ellipsoid"):
-     volume = math.pi*math.pow(alpha_side,3)*object_sideview[2]/4
+     volume = math.pi*math.pow(alpha_side,3)*object_sideview.iloc[0,2]/4
 
 elif(object_shape == "column"):
-     volume = math.pow(alpha_top,2)*alpha_side*object_sideview[5]*object_topview[1]
+     volume = math.pow(alpha_top,2)*alpha_side*object_sideview.iloc[0,5]*object_topview.iloc[0,1]
 
 elif(object_shape == "irregular"):
-     volume = object_topview[1]*math.pow(alpha_top,2)*alpha_side*object_sideview[2]/(object_sideview[2]**2)
+     volume = object_topview.iloc[0,1]*math.pow(alpha_top,2)*alpha_side*object_sideview.iloc[0,2]/(object_sideview.iloc[0,2]**2)
 
 calories = volume*density_energy[object_name][0]*density_energy[object_name][1]
 
