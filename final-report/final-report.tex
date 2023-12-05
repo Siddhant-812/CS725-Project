@@ -137,7 +137,20 @@
 	The density, unit energy values and shape for each food items can be obtained from ECUST dataset.
 	
 	\section{Results}
-	\lipsum
+	The main results are as follows:
+		\begin{itemize}
+		\item Volume estimation results are shown in the below figure. For most types of food in our experiment, the estimation volume are closer to reference volume.
+		\item We use mean error as the evaluation metric for the volume estimation of each of the food item class. It is assumed that within a single food class, the estimated volume is either overestimated or underestimated for all the instances.
+		\begin{equation}
+			ME = \sum_{k=1}^{N} \frac{v_{true}^k-v_{pred}^k}{v_{true}^k}\times 100 \%
+		\end{equation}
+		\item The mean error between estimation volume and true volume does not exceed 20\% except banana, grape, bread. For some food types such as lemon, orange, tomato, our estimation result is close enough to the true value.
+	\end{itemize}
+	\begin{figure}[p]
+		\centering
+		\includegraphics[width=\textwidth]{vol_est.png}
+		\caption{\scriptsize Volume estimation results of food items from images}
+	\end{figure}
 	\begin{figure}[p]
 		\centering
 		\includegraphics[width=\textwidth]{roadmap}
